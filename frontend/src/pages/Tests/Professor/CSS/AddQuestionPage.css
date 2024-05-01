@@ -1,0 +1,147 @@
+.add-question-container {
+  margin-top: 50px;
+  border: 10px solid #333; 
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-question-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.question-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.option-input {
+  width: calc(70% - 40px);
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option-input-wrapper {
+  flex: 1;
+}
+
+.option-control-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.correct-option-checkbox {
+  margin-right: 10px;
+}
+
+.correct-label {
+  margin-right: 10px;
+}
+
+.option-remove-icon {
+  cursor: pointer;
+}
+
+.add-option-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.option-add-icon {
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bold-label {
+  font-weight: bold;
+}
+
+
+.save-button,
+.back-button {
+  background-color: #282C34;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px auto; /* Center the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; /* Ensure the buttons occupy the full width */
+}
+
+.save-button:hover {
+  background-color: #005400;
+}
+
+.back-button:hover {
+  background-color: #510302;
+}
+
+.horizontal-fields-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.field-container {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.field-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-question-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.option-delete-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-delete-button:hover {
+  background-color: #510302;
+}
+

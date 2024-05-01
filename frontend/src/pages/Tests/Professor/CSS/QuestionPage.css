@@ -1,0 +1,115 @@
+/* QuestionPage.css */
+
+.question-bank-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem; 
+  font-weight: bold;
+  width: 100%;
+}
+
+.question-list {
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.question-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem; /* Increase padding */
+  border-bottom: 1px solid #ccc;
+  width: 100%; /* Make the question item full width */
+}
+
+.question-item p {
+  margin: 0;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+.question-actions {
+  display: flex;
+}
+
+.action-icon {
+  margin-left: 1rem; /* Increase margin */
+  cursor: pointer;
+  color: #333;
+}
+
+.add-question-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #282c34;
+  color: #fff;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.add-question-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-icon {
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; /* Add margin bottom for spacing */
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.filter-options {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center; /* Center the search bar horizontally */
+  align-items: center; /* Center the search bar vertically */
+  flex-wrap: wrap; /* Allow wrapping if the content exceeds the width */
+}
+
+.filter-options select {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem; /* Add margin bottom for spacing */
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 768px) {
+  .question-list {
+    width: 80%; 
+    max-width: 800px;
+    margin: 1rem auto; 
+  }
+
+  .search-bar {
+    width: 50%; 
+  }
+}
+
+/* Styles for extra-large screens */
+@media only screen and (min-width: 1024px) {
+  .question-bank-container {
+    padding: 0 2rem; 
+  }
+
+  /* Styles for the heading */
+  .question-bank-container h1 {
+    margin-top: 2rem; /* Increase top margin for better spacing */
+    font-size: 2.5rem; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: #333333; /* Change color */
+  }
+}

@@ -1,0 +1,43 @@
+.result-list {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.result-list h1 {
+  color: #282c34;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.result-item .attempt-info {
+  flex: 1;
+}
+
+.result-item h3 {
+  margin-top: 0;
+}
+
+.result-item button {
+  padding: 0.5rem 1rem;
+  background-color: #282c34;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.result-item button:hover {
+  background-color: #0056b3;
+}

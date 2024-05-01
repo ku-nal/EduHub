@@ -1,0 +1,25 @@
+.success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 128, 0, 0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .success-popup-content {
+    text-align: center;
+  }
+  
+  .success-popup button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

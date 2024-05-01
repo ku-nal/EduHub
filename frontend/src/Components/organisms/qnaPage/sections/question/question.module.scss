@@ -1,0 +1,17 @@
+.questionContainer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3rem;
+  .qTitle {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e3e4e2;
+    .qTimeStamp {
+      display: flex;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      .qTimeStamp__asked {
+        color: #a2a2a2;
+      }
+    }
+  }
+}

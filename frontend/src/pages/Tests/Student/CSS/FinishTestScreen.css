@@ -1,0 +1,39 @@
+.finish-test-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .finish-test-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .result-message {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-section {
+    margin-bottom: 20px;
+  }
+  
+  .attempt-details {
+    margin-bottom: 20px;
+  }
+  
+  .result-button {
+    padding: 10px 20px;
+    background-color: #282C34;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .result-button:hover {
+    background-color: #0056b3;
+  }
+  

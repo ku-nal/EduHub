@@ -1,0 +1,80 @@
+.create-test-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 30px;
+  border: 5px solid #282C34;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.form-item {
+  width: 45%;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-item select,
+.form-item input[type="number"],
+.form-item input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.created-tests {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.test-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.test-item p {
+  margin: 0;
+}
+
+.test-actions button {
+  margin-left: 10px;
+}
+
+.test-actions button > .MuiSvgIcon-root {
+  font-size: 1.2rem;
+}
+
+.snackbar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

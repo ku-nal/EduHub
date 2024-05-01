@@ -1,0 +1,56 @@
+.test-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 110%; 
+  max-width: 1000px; 
+}
+
+.test-item > * {
+  flex: 1;
+}
+
+.test-name-column {
+  text-align: center;
+}
+
+.test-details-column,
+.test-other-details-column {
+  margin-left: 20px;
+}
+
+.test-start-button-column {
+  text-align: center;
+}
+
+.start-test-btn {
+  padding: 10px 20px;
+  background-color: #282C34;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-test-btn:hover {
+  background-color: #0056b3;
+}
+
+.test-list-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #282C34;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}

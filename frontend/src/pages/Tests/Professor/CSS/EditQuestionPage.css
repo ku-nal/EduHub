@@ -1,0 +1,108 @@
+/* EditQuestionPage.css */
+
+.edit-question-container {
+    margin-top: 50px;
+    border: 10px solid #333;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-question-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .field-container {
+    margin-bottom: 25px;
+  }
+  
+  .field-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .question-input,
+  .option-input,
+  .solution-description-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .horizontal-fields-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .add-option-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .option-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .option-container input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .option-delete-button {
+    background-color: #282c34;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .save-button,
+  .back-button {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+  }
+  
+  .save-button:hover {
+    background-color: #005400;
+  }
+  
+  .back-button:hover {
+    background-color: #510302;
+  }
+
+  .option-add-icon {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

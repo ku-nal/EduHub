@@ -1,0 +1,31 @@
+.modalContainer {
+  font-weight: 600;
+  width: 36.4rem !important;
+  .postCreationContainer {
+    section {
+      padding: 1rem;
+    }
+
+    :global([class*='editorContainer']) {
+      background: #ffffff;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #d9d9d9;
+      border-radius: 0.6rem;
+      min-height: 5rem;
+      height: auto;
+    }
+  }
+
+  :global([class*='ant-btn ant-btn-default']) {
+    background-color: rgb(62, 84, 170);
+    color: white;
+  }
+  :global([class*='ant-modal-title']) {
+    padding-left: 1rem;
+  }
+  :global([class*='ant-modal-footer']) {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+}
